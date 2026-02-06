@@ -117,7 +117,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(87, 89)
         Me.Button3.TabIndex = 8
-        Me.Button3.Text = "*"
+        Me.Button3.Text = "x"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -127,7 +127,7 @@ Partial Class Form1
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(87, 89)
         Me.Button4.TabIndex = 9
-        Me.Button4.Text = "/"
+        Me.Button4.Text = "÷"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Form1
