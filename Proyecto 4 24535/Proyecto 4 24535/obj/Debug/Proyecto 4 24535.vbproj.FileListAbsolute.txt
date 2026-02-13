@@ -1,0 +1,12 @@
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\bin\Debug\Proyecto 4 24535.exe.config
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\bin\Debug\Proyecto 4 24535.exe
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\bin\Debug\Proyecto 4 24535.pdb
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\bin\Debug\Proyecto 4 24535.xml
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.vbprojAssemblyReference.cache
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto_4_24535.Form1.resources
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto_4_24535.Resources.resources
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.vbproj.GenerateResource.cache
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.vbproj.CoreCompileInputs.cache
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.exe
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.xml
+C:\Diego Martínez 24535\Proyecto 4 24535\Proyecto 4 24535\obj\Debug\Proyecto 4 24535.pdb
