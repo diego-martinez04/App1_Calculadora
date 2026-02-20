@@ -26,11 +26,25 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.botonmas = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.botonmenos = New System.Windows.Forms.Button()
+        Me.botonmultiplicacion = New System.Windows.Forms.Button()
+        Me.botondivision = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Boton2 = New System.Windows.Forms.Button()
+        Me.Boton3 = New System.Windows.Forms.Button()
+        Me.Boton4 = New System.Windows.Forms.Button()
+        Me.Boton5 = New System.Windows.Forms.Button()
+        Me.Boton6 = New System.Windows.Forms.Button()
+        Me.botoon6 = New System.Windows.Forms.Button()
+        Me.Boton8 = New System.Windows.Forms.Button()
+        Me.Boton9 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -38,7 +52,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Variable Text Semiligh", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(45, 69)
+        Me.Label1.Location = New System.Drawing.Point(19, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(190, 46)
         Me.Label1.TabIndex = 0
@@ -47,16 +61,17 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(302, 71)
+        Me.TextBox1.Location = New System.Drawing.Point(242, 34)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(228, 45)
         Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Text = "0"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Variable Text Semiligh", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(45, 186)
+        Me.Label2.Location = New System.Drawing.Point(19, 111)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(195, 46)
         Me.Label2.TabIndex = 2
@@ -65,69 +80,210 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(302, 188)
+        Me.TextBox2.Location = New System.Drawing.Point(242, 113)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(228, 45)
         Me.TextBox2.TabIndex = 3
+        Me.TextBox2.Text = "0"
         '
-        'Button1
+        'botonmas
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(592, 69)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 89)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "+"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.botonmas.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.botonmas.Location = New System.Drawing.Point(832, 20)
+        Me.botonmas.Name = "botonmas"
+        Me.botonmas.Size = New System.Drawing.Size(87, 88)
+        Me.botonmas.TabIndex = 4
+        Me.botonmas.Text = "+"
+        Me.botonmas.UseVisualStyleBackColor = True
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Variable Text Semiligh", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(40, 311)
+        Me.Label3.Location = New System.Drawing.Point(23, 234)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(207, 46)
+        Me.Label3.Size = New System.Drawing.Size(215, 46)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "RESULTADO"
+        Me.Label3.Text = "RESULTADO:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria Math", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(309, 238)
+        Me.Label4.Location = New System.Drawing.Point(236, 161)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(183, 195)
+        Me.Label4.Size = New System.Drawing.Size(101, 195)
         Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "0"
+        '
+        'botonmenos
+        '
+        Me.botonmenos.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.botonmenos.Location = New System.Drawing.Point(832, 114)
+        Me.botonmenos.Name = "botonmenos"
+        Me.botonmenos.Size = New System.Drawing.Size(87, 86)
+        Me.botonmenos.TabIndex = 7
+        Me.botonmenos.Text = "-"
+        Me.botonmenos.UseVisualStyleBackColor = True
+        '
+        'botonmultiplicacion
+        '
+        Me.botonmultiplicacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.botonmultiplicacion.Location = New System.Drawing.Point(832, 206)
+        Me.botonmultiplicacion.Name = "botonmultiplicacion"
+        Me.botonmultiplicacion.Size = New System.Drawing.Size(87, 87)
+        Me.botonmultiplicacion.TabIndex = 8
+        Me.botonmultiplicacion.Text = "x"
+        Me.botonmultiplicacion.UseVisualStyleBackColor = True
+        '
+        'botondivision
+        '
+        Me.botondivision.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.botondivision.Location = New System.Drawing.Point(832, 303)
+        Me.botondivision.Name = "botondivision"
+        Me.botondivision.Size = New System.Drawing.Size(87, 85)
+        Me.botondivision.TabIndex = 9
+        Me.botondivision.Text = "÷"
+        Me.botondivision.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Button1.Location = New System.Drawing.Point(547, 206)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(87, 87)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(709, 69)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Button2.Location = New System.Drawing.Point(646, 303)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(87, 89)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "-"
+        Me.Button2.Size = New System.Drawing.Size(87, 85)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "0"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Boton2
+        '
+        Me.Boton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton2.Location = New System.Drawing.Point(646, 206)
+        Me.Boton2.Name = "Boton2"
+        Me.Boton2.Size = New System.Drawing.Size(87, 87)
+        Me.Boton2.TabIndex = 12
+        Me.Boton2.Text = "2"
+        Me.Boton2.UseVisualStyleBackColor = True
+        '
+        'Boton3
+        '
+        Me.Boton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton3.Location = New System.Drawing.Point(739, 206)
+        Me.Boton3.Name = "Boton3"
+        Me.Boton3.Size = New System.Drawing.Size(87, 87)
+        Me.Boton3.TabIndex = 13
+        Me.Boton3.Text = "3"
+        Me.Boton3.UseVisualStyleBackColor = True
+        '
+        'Boton4
+        '
+        Me.Boton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton4.Location = New System.Drawing.Point(547, 113)
+        Me.Boton4.Name = "Boton4"
+        Me.Boton4.Size = New System.Drawing.Size(87, 87)
+        Me.Boton4.TabIndex = 14
+        Me.Boton4.Text = "4"
+        Me.Boton4.UseVisualStyleBackColor = True
+        '
+        'Boton5
+        '
+        Me.Boton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton5.Location = New System.Drawing.Point(646, 113)
+        Me.Boton5.Name = "Boton5"
+        Me.Boton5.Size = New System.Drawing.Size(87, 87)
+        Me.Boton5.TabIndex = 15
+        Me.Boton5.Text = "5"
+        Me.Boton5.UseVisualStyleBackColor = True
+        '
+        'Boton6
+        '
+        Me.Boton6.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton6.Location = New System.Drawing.Point(739, 113)
+        Me.Boton6.Name = "Boton6"
+        Me.Boton6.Size = New System.Drawing.Size(87, 87)
+        Me.Boton6.TabIndex = 16
+        Me.Boton6.Text = "6"
+        Me.Boton6.UseVisualStyleBackColor = True
+        '
+        'botoon6
+        '
+        Me.botoon6.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.botoon6.Location = New System.Drawing.Point(547, 20)
+        Me.botoon6.Name = "botoon6"
+        Me.botoon6.Size = New System.Drawing.Size(87, 87)
+        Me.botoon6.TabIndex = 17
+        Me.botoon6.Text = "7"
+        Me.botoon6.UseVisualStyleBackColor = True
+        '
+        'Boton8
+        '
+        Me.Boton8.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton8.Location = New System.Drawing.Point(646, 20)
+        Me.Boton8.Name = "Boton8"
+        Me.Boton8.Size = New System.Drawing.Size(87, 87)
+        Me.Boton8.TabIndex = 18
+        Me.Boton8.Text = "8"
+        Me.Boton8.UseVisualStyleBackColor = True
+        '
+        'Boton9
+        '
+        Me.Boton9.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!)
+        Me.Boton9.Location = New System.Drawing.Point(739, 20)
+        Me.Boton9.Name = "Boton9"
+        Me.Boton9.Size = New System.Drawing.Size(87, 87)
+        Me.Boton9.TabIndex = 19
+        Me.Boton9.Text = "9"
+        Me.Boton9.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(592, 186)
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.Button3.Location = New System.Drawing.Point(739, 303)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(87, 89)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "x"
+        Me.Button3.Size = New System.Drawing.Size(87, 85)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "CE"
         Me.Button3.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(493, 46)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton1.TabIndex = 21
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(493, 134)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton2.TabIndex = 22
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(709, 186)
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.Button4.Location = New System.Drawing.Point(547, 299)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(87, 89)
-        Me.Button4.TabIndex = 9
-        Me.Button4.Text = "÷"
+        Me.Button4.TabIndex = 23
+        Me.Button4.Text = "."
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Form1
@@ -135,13 +291,27 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightCyan
-        Me.ClientSize = New System.Drawing.Size(875, 450)
+        Me.ClientSize = New System.Drawing.Size(942, 408)
         Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.RadioButton2)
+        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Boton9)
+        Me.Controls.Add(Me.Boton8)
+        Me.Controls.Add(Me.botoon6)
+        Me.Controls.Add(Me.Boton6)
+        Me.Controls.Add(Me.Boton5)
+        Me.Controls.Add(Me.Boton4)
+        Me.Controls.Add(Me.Boton3)
+        Me.Controls.Add(Me.Boton2)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.botondivision)
+        Me.Controls.Add(Me.botonmultiplicacion)
+        Me.Controls.Add(Me.botonmenos)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.botonmas)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
@@ -157,10 +327,24 @@ Partial Class Form1
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents botonmas As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents botonmenos As Button
+    Friend WithEvents botonmultiplicacion As Button
+    Friend WithEvents botondivision As Button
+    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Boton2 As Button
+    Friend WithEvents Boton3 As Button
+    Friend WithEvents Boton4 As Button
+    Friend WithEvents Boton5 As Button
+    Friend WithEvents Boton6 As Button
+    Friend WithEvents botoon6 As Button
+    Friend WithEvents Boton8 As Button
+    Friend WithEvents Boton9 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents Button4 As Button
 End Class
